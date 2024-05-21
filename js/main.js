@@ -26,11 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('totalCarrito').textContent = total.toFixed(2);
     }
 
-
-
-    
-
-    fetch('./js/productos.json') // Asegúrate de que la ruta del archivo JSON es correcta
+    fetch('./js/productos.json') 
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -63,7 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         carrito.push(selectedProduct);
                         console.log('Producto agregado al carrito:', selectedProduct);
                         console.log('Contenido del carrito:', carrito);
-                        actualizarCarrito(); // Llamamos a la función para actualizar el carrito
+
+                        // Guardar el carrito actualizado en localStorage
+                        localStorage.setItem('carrito', JSON.stringify(carrito));
+                        console.log('Carrito actualizado en localStorage:', carrito);
+
+                        // Llamar a la función para actualizar el carrito en la interfaz
+                        actualizarCarrito();
                     } else {
                         console.error('Producto no encontrado con ID:', productId);
                     }
