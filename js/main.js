@@ -1,28 +1,42 @@
-// Obtener elementos del DOM
-const abrirMenuBtn = document.getElementById('abrir');
-const cerrarMenuBtn = document.getElementById('cerrar');
-const navBar = document.getElementById('navBar');
-
-// Función para abrir el menú
-function abrirMenu() {
-    navBar.classList.add('visible');
-}
-
-// Función para cerrar el menú
-function cerrarMenu() {
-    navBar.classList.remove('visible');
-}
-
-// Event listeners para abrir y cerrar el menú
-abrirMenuBtn.addEventListener('click', abrirMenu);
-cerrarMenuBtn.addEventListener('click', cerrarMenu);
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('./js/productos.json')
-        .then(response => response.json())
+    // Declarar un array para almacenar los productos seleccionados
+    let carrito = [];
+
+    // Función para actualizar la visualización del carrito
+    function actualizarCarrito() {
+        const carritoContainer = document.querySelector('.carritoProductos');
+        carritoContainer.innerHTML = '';
+
+        let total = 0;
+
+        carrito.forEach(producto => {
+            const carritoProducto = document.createElement('div');
+            carritoProducto.classList.add('carritoProducto');
+
+            carritoProducto.innerHTML = `
+                <img src="${producto.imagen}" alt="${producto.titulo}">
+                <p>${producto.titulo}</p>
+                <p>$${producto.precio}</p>
+            `;
+
+            carritoContainer.appendChild(carritoProducto);
+            total += producto.precio;
+        });
+
+        document.getElementById('totalCarrito').textContent = total.toFixed(2);
+    }
+
+
+
+    
+
+    fetch('./js/productos.json') // Asegúrate de que la ruta del archivo JSON es correcta
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             const containerProductos = document.querySelector('.containerProductos');
             data.forEach(product => {
@@ -34,77 +48,42 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>${product.titulo}</h2>
                     <p>${product.banda}</p>
                     <p>Precio: $${product.precio}</p>
+                    <button class="agregarProducto" data-id="${product.id}">Agregar al carrito</button>
                 `;
                 
                 containerProductos.appendChild(productDiv);
+            });
+
+            // Adding event listeners to the buttons
+            document.querySelectorAll('.agregarProducto').forEach(button => {
+                button.addEventListener('click', event => {
+                    const productId = event.target.dataset.id;
+                    const selectedProduct = data.find(product => product.id === productId);
+                    if (selectedProduct) {
+                        carrito.push(selectedProduct);
+                        console.log('Producto agregado al carrito:', selectedProduct);
+                        console.log('Contenido del carrito:', carrito);
+                        actualizarCarrito(); // Llamamos a la función para actualizar el carrito
+                    } else {
+                        console.error('Producto no encontrado con ID:', productId);
+                    }
+                });
             });
         })
         .catch(error => console.error('Error fetching data:', error));
 });
 
-/* 
-let productos = [];
+// Función para abrir y cerrar el menú en dispositivos móviles
+document.addEventListener('DOMContentLoaded', () => {
+    const abrirMenu = document.getElementById('abrir');
+    const cerrarMenu = document.getElementById('cerrar');
+    const navBar = document.getElementById('navBar');
 
-fetch("./js/productos.json")
-    .then(response => response.json())
-    .then(data => {
-        productos = data;
-        cargarProductos(productos);
-    }) */
+    abrirMenu.addEventListener('click', () => {
+        navBar.classList.add('visible');
+    });
 
-
-/* function cargarProductos(productosElegidos) {
-    containerProductos.innerHTML = "";
-
-    productosElegidos.forEach(producto => {
-
-        const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
-        <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-        <div class="producto-detalles">
-        <h3 class="producto-titulo">${producto.titulo}</h3>
-                <h4 class="producto-banda">${producto.banda}</h4>
-                <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
-            </div>
-        `;
-
-        contenedorProductos.append(div);
-    })
-
-    actualizarBotonesAgregar();
-}
- */
-/* 
-    const renderProducts = (products) => {
-        const gallery = document.getElementById('product-gallery');
-        
-        const bands = [...new Set(products.map(product => product.banda))];
-
-        bands.forEach(band => {
-            const categoryTitle = document.createElement('div');
-            categoryTitle.className = 'category-title';
-            categoryTitle.textContent = band;
-            gallery.appendChild(categoryTitle);
-
-            const bandProducts = products.filter(product => product.banda === band);
-            
-            bandProducts.forEach(product => {
-                const productCard = document.createElement('div');
-                productCard.className = 'product-card';
-
-                productCard.innerHTML = `
-                    <img src="${product.imagen}" alt="${product.titulo}">
-                    <div class="product-details">
-                        <div class="product-title">${product.titulo}</div>
-                        <div class="product-price">$${product.precio}</div>
-                    </div>
-                `;
-                
-                gallery.appendChild(productCard);
-            });
-        });
-    };
-
-    renderProducts(products); */
+    cerrarMenu.addEventListener('click', () => {
+        navBar.classList.remove('visible');
+    });
+});

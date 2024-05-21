@@ -22,7 +22,7 @@
         "precio": 1000
     },
     {
-        "id": "abrigo-03",
+        "id": "ccr-03",
         "titulo": "Pendulum",
         "imagen": "./assets/img/ccr/03.jpg",
         "banda": "Creedence Clearwater Revival",
@@ -33,7 +33,7 @@
         "precio": 1000
     },
     {
-        "id": "abrigo-04",
+        "id": "ccr-04",
         "titulo": "Green River",
         "imagen": "./assets/img/ccr/04.jpg",
         "banda": "Creedence Clearwater Revival",
@@ -44,7 +44,7 @@
         "precio": 1000
     },
     {
-        "id": "abrigo-05",
+        "id": "ccr-05",
         "titulo": "Cosmo's Factory",
         "imagen": "./assets/img/ccr/05.jpg",
         "banda": "Creedence Clearwater Revival",
@@ -55,7 +55,7 @@
         "precio": 1000
     },
     {
-        "id": "abrigo-05",
+        "id": "ccr-06",
         "titulo": "Willy and The Poor Boys",
         "imagen": "./assets/img/ccr/06.jpg",
         "banda": "Creedence Clearwater Revival",
@@ -66,7 +66,7 @@
         "precio": 1000
     },
     {
-        "id": "abrigo-05",
+        "id": "ccr-07",
         "titulo": "Mardi Gras",
         "imagen": "./assets/img/ccr/07.jpg",
         "banda": "Creedence Clearwater Revival",

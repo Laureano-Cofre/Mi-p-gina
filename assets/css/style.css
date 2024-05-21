@@ -64,7 +64,7 @@ header {
   .hero-text {
     color: white;
     line-height: 1.8;
-    max-width: 46ch;
+    max-width: 100ch;
     margin-bottom: 25px;
       }
 
@@ -109,7 +109,7 @@ header {
 }
 
 .opcion:hover img {
-    transform: scale(1.1);      /* Aumenta el tamaño de la imagen al 110% */
+    transform: scale(1.1); 
 }
 
 
@@ -136,7 +136,7 @@ h2 {
 
 .containerProductos {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 3rem;
     padding: 3rem;
 }
@@ -156,7 +156,7 @@ h2 {
 }
 
 .producto img:hover {
-    transform: scale(1.1);      /* Aumenta el tamaño de la imagen al 110% */
+    transform: scale(1.1); 
 }
 
 .producto h2 {
@@ -169,6 +169,23 @@ h2 {
     font-size: 1em;
 }
 
+.agregarProducto {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: .4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    transition: background-color .2s, color .2s;
+}
+
+.agregarProducto:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    border: 2px solid black;
+}
 
 
 /* Footer */
@@ -254,8 +271,68 @@ footer p {
     font-size: 20px;
   }
 
+/* Carrito */
 
+/* Estilos para el carrito de compras */
 
+.carritoContainer {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 2rem auto;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carritoContainer h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.carritoProductos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carritoProducto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.carritoProducto img {
+    width: 50px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.carritoProducto p {
+    margin: 0;
+}
+
+#totalCarrito {
+    font-weight: bold;
+}
+
+#checkoutBtn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#checkoutBtn:hover {
+    background-color: #333;
+}
 
 
 
