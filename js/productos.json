@@ -2,7 +2,7 @@
     {
         "id": "ccr-01",
         "titulo": "Creedence Clearwater Revival",
-        "imagen": "./img/ccr/01.jpg",
+        "imagen": "./assets/img/ccr/01.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -13,7 +13,7 @@
     {
         "id": "ccr-02",
         "titulo": "Bayou Country",
-        "imagen": "./img/ccr/02.jpg",
+        "imagen": "./assets/img/ccr/02.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -24,7 +24,7 @@
     {
         "id": "abrigo-03",
         "titulo": "Pendulum",
-        "imagen": "./img/ccr/03.jpg",
+        "imagen": "./assets/img/ccr/03.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -35,7 +35,7 @@
     {
         "id": "abrigo-04",
         "titulo": "Green River",
-        "imagen": "./img/ccr/04.jpg",
+        "imagen": "./assets/img/ccr/04.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -46,7 +46,7 @@
     {
         "id": "abrigo-05",
         "titulo": "Cosmo's Factory",
-        "imagen": "./img/ccr/05.jpg",
+        "imagen": "./assets/img/ccr/05.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -57,7 +57,7 @@
     {
         "id": "abrigo-05",
         "titulo": "Willy and The Poor Boys",
-        "imagen": "./img/ccr/06.jpg",
+        "imagen": "./assets/img/ccr/06.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -68,7 +68,7 @@
     {
         "id": "abrigo-05",
         "titulo": "Mardi Gras",
-        "imagen": "./img/ccr/07.jpg",
+        "imagen": "./assets/img/ccr/07.jpg",
         "banda": "Creedence Clearwater Revival",
         "categoria": {
             "nombre": "Creedence Clearwater Revival",
@@ -79,7 +79,7 @@
     {
         "id": "camiseta-01",
         "titulo": "Camiseta 01",
-        "imagen": "./img/trs/1.jpg",
+        "imagen": "./assets/img/trs/1.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -90,7 +90,7 @@
     {
         "id": "camiseta-02",
         "titulo": "Camiseta 02",
-        "imagen": "./img/trs/2.jpg",
+        "imagen": "./assets/img/trs/2.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -101,7 +101,7 @@
     {
         "id": "camiseta-03",
         "titulo": "Camiseta 03",
-        "imagen": "./img/trs/3.jpg",
+        "imagen": "./assets/img/trs/3.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -112,7 +112,7 @@
     {
         "id": "camiseta-04",
         "titulo": "Camiseta 04",
-        "imagen": "./img/trs/4.jpg",
+        "imagen": "./assets/img/trs/4.jpg",
                 "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -123,7 +123,7 @@
     {
         "id": "camiseta-05",
         "titulo": "Camiseta 05",
-        "imagen": "./img/trs/5.jpg",
+        "imagen": "./assets/img/trs/5.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -134,7 +134,7 @@
     {
         "id": "camiseta-06",
         "titulo": "Camiseta 06",
-        "imagen": "./img/trs/6.jpg",
+        "imagen": "./assets/img/trs/6.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -145,7 +145,7 @@
     {
         "id": "camiseta-07",
         "titulo": "Camiseta 07",
-        "imagen": "./img/trs/7.jpg",
+        "imagen": "./assets/img/trs/7.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -156,7 +156,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 08",
-        "imagen": "./img/trs/8.jpg",
+        "imagen": "./assets/img/trs/8.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -167,7 +167,7 @@
     {
         "id": "camiseta-09",
         "titulo": "Camiseta 09",
-        "imagen": "./img/trs/9.jpg",
+        "imagen": "./assets/img/trs/9.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -178,7 +178,7 @@
     {
         "id": "camiseta-10",
         "titulo": "Camiseta 10",
-        "imagen": "./img/trs/10.jpg",
+        "imagen": "./assets/img/trs/10.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -189,7 +189,7 @@
     {
         "id": "camiseta-11",
         "titulo": "Camiseta 11",
-        "imagen": "./img/trs/11.jpg",
+        "imagen": "./assets/img/trs/11.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -200,7 +200,7 @@
     {
         "id": "camiseta-12",
         "titulo": "Camiseta 12",
-        "imagen": "./img/trs/12.jpg",
+        "imagen": "./assets/img/trs/12.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -211,7 +211,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 13",
-        "imagen": "./img/trs/13.jpg",
+        "imagen": "./assets/img/trs/13.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -222,7 +222,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 08",
-        "imagen": "./img/trs/14.jpg",
+        "imagen": "./assets/img/trs/14.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -233,7 +233,7 @@
     {
         "id": "camiseta-01",
         "titulo": "Camiseta 01",
-        "imagen": "./img/trs/15.jpg",
+        "imagen": "./assets/img/trs/15.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -244,7 +244,7 @@
     {
         "id": "camiseta-02",
         "titulo": "Camiseta 02",
-        "imagen": "./img/trs/16.jpg",
+        "imagen": "./assets/img/trs/16.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -255,7 +255,7 @@
     {
         "id": "camiseta-03",
         "titulo": "Camiseta 03",
-        "imagen": "./img/trs/17.jpg",
+        "imagen": "./assets/img/trs/17.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -266,7 +266,7 @@
     {
         "id": "camiseta-04",
         "titulo": "Camiseta 04",
-        "imagen": "./img/trs/18.jpg",
+        "imagen": "./assets/img/trs/18.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -277,7 +277,7 @@
     {
         "id": "camiseta-05",
         "titulo": "Camiseta 05",
-        "imagen": "./img/trs/19.jpg",
+        "imagen": "./assets/img/trs/19.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -288,7 +288,7 @@
     {
         "id": "camiseta-06",
         "titulo": "Camiseta 06",
-        "imagen": "./img/trs/20.jpg",
+        "imagen": "./assets/img/trs/20.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -299,7 +299,7 @@
     {
         "id": "camiseta-07",
         "titulo": "Camiseta 07",
-        "imagen": "./img/trs/21.jpg",
+        "imagen": "./assets/img/trs/21.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -310,7 +310,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 08",
-        "imagen": "./img/trs/22.jpg",
+        "imagen": "./assets/img/trs/22.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -321,7 +321,7 @@
     {
         "id": "camiseta-09",
         "titulo": "Camiseta 09",
-        "imagen": "./img/trs/23.jpg",
+        "imagen": "./assets/img/trs/23.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -332,7 +332,7 @@
     {
         "id": "camiseta-10",
         "titulo": "Camiseta 10",
-        "imagen": "./img/trs/24.jpg",
+        "imagen": "./assets/img/trs/24.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -343,7 +343,7 @@
     {
         "id": "camiseta-11",
         "titulo": "Camiseta 11",
-        "imagen": "./img/trs/25.jpg",
+        "imagen": "./assets/img/trs/25.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -354,7 +354,7 @@
     {
         "id": "camiseta-12",
         "titulo": "Camiseta 12",
-        "imagen": "./img/trs/26.jpg",
+        "imagen": "./assets/img/trs/26.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -365,7 +365,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 13",
-        "imagen": "./img/trs/27.jpg",
+        "imagen": "./assets/img/trs/27.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -376,7 +376,7 @@
     {
         "id": "camiseta-08",
         "titulo": "Camiseta 08",
-        "imagen": "./img/trs/28.jpg",
+        "imagen": "./assets/img/trs/28.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
             "nombre": "The Rolling Stones",
@@ -387,7 +387,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/1.jpg",
+        "imagen": "./assets/img/tb/1.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -398,7 +398,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/2.jpg",
+        "imagen": "./assets/img/tb/2.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -409,7 +409,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/3.jpg",
+        "imagen": "./assets/img/tb/3.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -420,7 +420,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/4.jpg",
+        "imagen": "./assets/img/tb/4.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -431,7 +431,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/5.jpg",
+        "imagen": "./assets/img/tb/5.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -442,7 +442,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/6.jpg",
+        "imagen": "./assets/img/tb/6.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -453,7 +453,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/7.jpg",
+        "imagen": "./assets/img/tb/7.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -464,7 +464,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/8.jpg",
+        "imagen": "./assets/img/tb/8.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -475,7 +475,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/9.jpg",
+        "imagen": "./assets/img/tb/9.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -486,7 +486,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/10.jpg",
+        "imagen": "./assets/img/tb/10.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -497,7 +497,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/11.jpg",
+        "imagen": "./assets/img/tb/11.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -508,7 +508,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/12.jpg",
+        "imagen": "./assets/img/tb/12.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -519,7 +519,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/13.jpg",
+        "imagen": "./assets/img/tb/13.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
@@ -530,7 +530,7 @@
     {
         "id": "pantalon-01",
         "titulo": "Pantalón 01",
-        "imagen": "./img/tb/14.jpg",
+        "imagen": "./assets/img/tb/14.jpg",
         "banda": "The Beatles",
         "categoria": {
             "nombre": "The Beatles",
