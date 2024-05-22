@@ -77,8 +77,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-01",
-        "titulo": "Camiseta 01",
+        "id": "therollingstones-01",
+        "titulo": "The Rolling Stones",
         "imagen": "./assets/img/trs/1.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -88,8 +88,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-02",
-        "titulo": "Camiseta 02",
+        "id": "therollingstones-02",
+        "titulo": "12 x 5",
         "imagen": "./assets/img/trs/2.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -99,8 +99,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-03",
-        "titulo": "Camiseta 03",
+        "id": "therollingstones-03",
+        "titulo": "The Rolling Stones No.2",
         "imagen": "./assets/img/trs/3.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -110,8 +110,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-04",
-        "titulo": "Camiseta 04",
+        "id": "therollingstones-04",
+        "titulo": "The Rolling Stones, Now! ",
         "imagen": "./assets/img/trs/4.jpg",
                 "banda": "The Rolling Stones",
         "categoria": {
@@ -121,8 +121,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-05",
-        "titulo": "Camiseta 05",
+        "id": "therollingstones-05",
+        "titulo": "Out of Our Heads",
         "imagen": "./assets/img/trs/5.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -132,8 +132,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta 06",
+        "id": "therollingstones-06",
+        "titulo": "December's Children (And Everybody's) ",
         "imagen": "./assets/img/trs/6.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -143,8 +143,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
+        "id": "therollingstones-07",
+        "titulo": "Aftermath",
         "imagen": "./assets/img/trs/7.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -154,8 +154,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
+        "id": "therollingstones-08",
+        "titulo": "Between the Buttons",
         "imagen": "./assets/img/trs/8.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -165,8 +165,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-09",
-        "titulo": "Camiseta 09",
+        "id": "therollingstones-09",
+        "titulo": "Flowers",
         "imagen": "./assets/img/trs/9.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -176,8 +176,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-10",
-        "titulo": "Camiseta 10",
+        "id": "therollingstones-10",
+        "titulo": "Their Satanic Majesties Request",
         "imagen": "./assets/img/trs/10.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -187,8 +187,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-11",
-        "titulo": "Camiseta 11",
+        "id": "therollingstones-11",
+        "titulo": "Beggars Banquet",
         "imagen": "./assets/img/trs/11.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -198,8 +198,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-12",
-        "titulo": "Camiseta 12",
+        "id": "therollingstones-12",
+        "titulo": "Let It Bleed",
         "imagen": "./assets/img/trs/12.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -209,8 +209,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 13",
+        "id": "therollingstones-13",
+        "titulo": "Sticky Fingers",
         "imagen": "./assets/img/trs/13.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -220,8 +220,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
+        "id": "therollingstones-14",
+        "titulo": "Exile on Main St.",
         "imagen": "./assets/img/trs/14.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -231,8 +231,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-01",
-        "titulo": "Camiseta 01",
+        "id": "therollingstones-15",
+        "titulo": "Goats Head Soup",
         "imagen": "./assets/img/trs/15.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -242,8 +242,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-02",
-        "titulo": "Camiseta 02",
+        "id": "therollingstones-16",
+        "titulo": "It's Only Rock'n'Roll",
         "imagen": "./assets/img/trs/16.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -253,8 +253,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-03",
-        "titulo": "Camiseta 03",
+        "id": "therollingstones-17",
+        "titulo": "Black and Blue",
         "imagen": "./assets/img/trs/17.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -264,8 +264,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-04",
-        "titulo": "Camiseta 04",
+        "id": "therollingstones-18",
+        "titulo": "Some Girls",
         "imagen": "./assets/img/trs/18.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -275,8 +275,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-05",
-        "titulo": "Camiseta 05",
+        "id": "therollingstones-19",
+        "titulo": "Emotional Rescue",
         "imagen": "./assets/img/trs/19.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -286,8 +286,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta 06",
+        "id": "therollingstones-20",
+        "titulo": "Tattoo You",
         "imagen": "./assets/img/trs/20.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -297,8 +297,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
+        "id": "therollingstones-21",
+        "titulo": "Undercover",
         "imagen": "./assets/img/trs/21.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -308,8 +308,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
+        "id": "therollingstones-22",
+        "titulo": "Dirty Work",
         "imagen": "./assets/img/trs/22.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -319,8 +319,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-09",
-        "titulo": "Camiseta 09",
+        "id": "therollingstones-23",
+        "titulo": "Steel Wheels",
         "imagen": "./assets/img/trs/23.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -330,8 +330,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-10",
-        "titulo": "Camiseta 10",
+        "id": "therollingstones-24",
+        "titulo": "Voodoo Lounge",
         "imagen": "./assets/img/trs/24.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -341,8 +341,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-11",
-        "titulo": "Camiseta 11",
+        "id": "therollingstones-25",
+        "titulo": "Bridges to Babylon",
         "imagen": "./assets/img/trs/25.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -352,8 +352,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-12",
-        "titulo": "Camiseta 12",
+        "id": "therollingstones-26",
+        "titulo": "A Bigger Bang",
         "imagen": "./assets/img/trs/26.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -363,8 +363,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 13",
+        "id": "therollingstones-27",
+        "titulo": "Blue & Lonesome",
         "imagen": "./assets/img/trs/27.jpg",
         "banda": "The Rolling Stones",
         "categoria": {
@@ -374,8 +374,8 @@
         "precio": 1000
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
+        "id": "therollingstones-28",
+        "titulo": "Hackney Diamonds",
         "imagen": "./assets/img/trs/28.jpg",
         "banda": "The Rolling Stones",
         "categoria": {

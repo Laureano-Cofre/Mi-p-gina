@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         totalCarrito.textContent = total.toFixed(2);
-        actualizarContadorCarrito();
+        actualizarContadorCarrito(); // Asegúrate de llamar esta función aquí
     }
 
     function actualizarContadorCarrito() {
@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
     checkoutBtn.addEventListener('click', () => {
         alert('Compra finalizada');
         localStorage.removeItem('carrito');
+        carrito.length = 0; // Vaciar el array del carrito
         actualizarCarrito();
     });
 

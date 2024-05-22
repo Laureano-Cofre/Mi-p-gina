@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Declarar un array para almacenar los productos seleccionados
     let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
-    // Función para actualizar la visualización del carrito
     function actualizarCarrito() {
         const carritoContainer = document.querySelector('.carritoProductos');
         if (carritoContainer) {
@@ -26,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             document.getElementById('totalCarrito').textContent = total.toFixed(2);
         }
-        actualizarContadorCarrito();
+        actualizarContadorCarrito(); // Asegúrate de llamar esta función aquí también
     }
 
     function actualizarContadorCarrito() {
@@ -85,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching data:', error));
 
-    // Función para abrir y cerrar el menú en dispositivos móviles
     const abrirMenu = document.getElementById('abrir');
     const cerrarMenu = document.getElementById('cerrar');
     const navBar = document.getElementById('navBar');
@@ -100,3 +97,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     actualizarCarrito();
 });
+
+    // Filtrado de productos basado en clic en las imágenes
+    const opciones = document.querySelectorAll('.opcion');
+
+    opciones.forEach(opcion => {
+        opcion.addEventListener('click', () => {
+            const filter = opcion.getAttribute('data-band');
+
+            opciones.forEach(op => {
+                if (op.getAttribute('data-band') === filter) {
+                    op.style.display = 'flex';
+                } else {
+                    op.style.display = 'none';
+                }
+            });
+        });
+    });
