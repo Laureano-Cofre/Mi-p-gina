@@ -386,7 +386,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Please Please Me",
         "imagen": "./assets/img/tb/1.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -397,7 +397,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "With the Beatles ",
         "imagen": "./assets/img/tb/2.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -408,7 +408,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "A Hard Day's Night",
         "imagen": "./assets/img/tb/3.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -419,7 +419,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Beatles for Sale",
         "imagen": "./assets/img/tb/4.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -430,7 +430,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Help!",
         "imagen": "./assets/img/tb/5.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -441,7 +441,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Rubber Soul",
         "imagen": "./assets/img/tb/6.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -452,7 +452,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Revolver",
         "imagen": "./assets/img/tb/7.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -463,7 +463,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Sgt. Pepper's Lonely Hearts Club Band",
         "imagen": "./assets/img/tb/8.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -474,7 +474,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Magical Mystery Tour",
         "imagen": "./assets/img/tb/9.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -485,7 +485,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "The Beatles (The White Album)",
         "imagen": "./assets/img/tb/10.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -496,7 +496,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Yellow Submarine",
         "imagen": "./assets/img/tb/11.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -507,7 +507,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Abbey Road",
         "imagen": "./assets/img/tb/12.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -518,7 +518,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Let It Be",
         "imagen": "./assets/img/tb/13.jpg",
         "banda": "The Beatles",
         "categoria": {
@@ -529,7 +529,7 @@
     },
     {
         "id": "pantalon-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Past Masters",
         "imagen": "./assets/img/tb/14.jpg",
         "banda": "The Beatles",
         "categoria": {
