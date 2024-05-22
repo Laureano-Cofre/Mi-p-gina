@@ -16,134 +16,118 @@
     <header>
       <a href="./index.html"><img class="logo" src="./assets/img/logo.jpg" alt="Logo de la página"> </a>
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>    
-<!-- NavBar -->
-<nav id="navBar" class="navBar">
-  <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
-  <ul class="navLinks">
-      <li><a href="./index.html">Inicio</a></li>
-      <li><a href="#">Quiénes somos</a></li>
-      <li><a href="#">Contacto</a></li>
-      <li><a href="carrito.html"><i class="bi bi-cart"></i></a>
-        <div class="iconoCarrito">
-            <!-- Aquí se mostrará el contador -->
-            <span id="carrito-counter">0</span>
-        </div>
-    </li>
-  </ul>
-</nav>
-
+        <!-- NavBar -->
+        <nav id="navBar" class="navBar">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="navLinks">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="carrito.html"><i class="bi bi-cart"></i></a>
+                    <div class="iconoCarrito">
+                        <!-- Aquí se mostrará el contador -->
+                        <span id="carrito-counter">0</span>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <section class="hero" style="background-image: url('/assets/img/hero.jpg')">
         <div class="containerHero">
-
-          <h2 class="h1 hero-title text-dark h1 text-center animate__animated animate__fadeInDown">
-            Nuestras<strong> Baterías </strong>
-          </h2>
-
-          <p class="hero-text">
-            Competently expedite alternative benefits whereas leading-edge catalysts for change. Globally leverage
-            existing an
-            expanded array of leadership.
-          </p>
-
-          <button class="btn btn-primary">
-            <span>Shop Now</span>
-
-            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-          </button>
-
+            <p class="hero-text">
+                Los discos de las bandas que marcaron historia, todos en un solo lugar. Su historia de cada artista.
+            </p>
+            <button class="heroBoton btn btn-primary">
+                <span>Shop Now</span>
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
         </div>
     </section>
     <div class="tituloPrincipal">
-      <h1 class="text-dark h1 text-center animate__animated animate__fadeInDown">Discografía</h1>
+        <h1 class="text-dark h1 text-center animate__animated animate__fadeInDown">Discografía</h1>
     </div>
 
     <div class="containerOpciones">
-        <div class="opcion">
+        <div class="opcion" data-band="Creedence Clearwater Revival">
             <img src="./assets/img/ccr/Creedence-Clearwater-Reviva.jpg" alt="Creedence Clearwater Revival">
             <h2>Creedence Clearwater Revival</h2>
         </div>
-        <div class="opcion">
+        <div class="opcion" data-band="The Rolling Stones">
             <img src="./assets/img/trs/RollingStones4150-8-8-1.jpg" alt="The Rolling Stones">
             <h2>The Rolling Stones</h2>
         </div>
-        <div class="opcion">
+        <div class="opcion" data-band="The Beatles">
             <img src="/assets/img/tb/Beatles_ad_1965_just_the_beatles_crop.jpg" alt="The Beatles">
             <h2>The Beatles</h2>
         </div>
     </div>
 
-    <div class="containerProductos">
-<!-- Acá lo agrego con JavaScript -->
+    <!-- Botón para recargar todos los productos -->
+    <div class="containerBoton">
+        <button id="mostrarTodos" class="btn btn-primary">Mostrar Todos</button>
     </div>
 
-<!-- Animaciones -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<!-- JS -->
-<script src="./js/main.js"></script>
+    <div class="containerProductos">
+        <!-- Acá lo agrego con JavaScript -->
+    </div>
+
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
 </body>
 
 <!-- Footer -->
 <footer class="footer">
     <ul class="social-icon">
-      <li class="icon-elem">
-        <a href="" class="icon">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-      </li>
-      <li class="icon-elem">
-        <a href="" class="icon">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-      </li>
-      <li class="icon-elem">
-        <a href="" class="icon">
-          <ion-icon name="logo-whatsapp"></ion-icon>
-        </a>
-      </li>
-      <li class="icon-elem">
-        <a href="" class="icon">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </a>
-      </li>
-      <li class="icon-elem">
-        <a href="" class="icon">
-          <ion-icon name="mail-outline"></ion-icon>
-        </a>
-      </li>
+        <li class="icon-elem">
+            <a href="" class="icon">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+        </li>
+        <li class="icon-elem">
+            <a href="" class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </li>
+        <li class="icon-elem">
+            <a href="" class="icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </li>
+        <li class="icon-elem">
+            <a href="" class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+        </li>
+        <li class="icon-elem">
+            <a href="" class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+            </a>
+        </li>
     </ul>
     <ul class="menu">
-      <li class="menu-elem">
-        <a href="" class="menu-icon"> Inicio </a>
-      </li>
-      <li class="menu-elem">
-        <a href="" class="menu-icon"> Equipo </a>
-      </li>
-      <li class="menu-elem">
-        <a href="" class="menu-icon"> Contacto </a>
-      </li>
-      <li class="menu-elem">
-        <a href="" class="menu-icon"> Video </a>
-      </li>
-      <li class="menu-elem">
-        <a href="" class="menu-icon"> Sobre Nosotros </a>
-      </li>
+        <li class="menu-elem">
+            <a href="" class="menu-icon"> Inicio </a>
+        </li>
+        <li class="menu-elem">
+            <a href="" class="menu-icon"> Equipo </a>
+        </li>
+        <li class="menu-elem">
+            <a href="" class="menu-icon"> Contacto </a>
+        </li>
+        <li class="menu-elem">
+            <a href="" class="menu-icon"> Video </a>
+        </li>
+        <li class="menu-elem">
+            <a href="" class="menu-icon"> Sobre Nosotros </a>
+        </li>
     </ul>
     <p class="text">@Año | Todos los derechos reservados</p>
-  </footer>
+</footer>
 
-  <script
-  type="module"
-  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-></script>
-<script
-  nomodule
-  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-></script>
-
-<!-- <footer>
-    <p>Creador Laureno Cofré, Las mejores Bandas de Rock.</p>
-</footer> -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </html>

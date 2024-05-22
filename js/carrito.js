@@ -23,9 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src="${producto.imagen}" alt="${producto.titulo}">
                 <div>
                     <h3>${producto.titulo}</h3>
+                    <p>${producto.banda}</p>
                     <p>Precio: $${producto.precio.toFixed(2)}</p>
                     <p>Cantidad: ${producto.cantidad}</p>
-                    <button class="btn btn-danger eliminarBtn" data-index="${index}">Eliminar</button>
+                    <button class="btn btn-danger eliminarBtn" data-id="${producto.id}">Eliminar</button>
                 </div>
             `;
             carritoProductos.appendChild(productoElemento);
@@ -48,17 +49,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Función para eliminar un producto del carrito
-    function eliminarProducto(index) {
-        carrito.splice(index, 1);
-        localStorage.setItem('carrito', JSON.stringify(carrito));
-        actualizarCarrito();
+    function eliminarProducto(id) {
+        const index = carrito.findIndex(product => product.id == id);
+        if (index > -1) {
+            carrito.splice(index, 1);
+            localStorage.setItem('carrito', JSON.stringify(carrito));
+            actualizarCarrito();
+        }
     }
 
     // Event listener para los botones de eliminar
     carritoProductos.addEventListener('click', (e) => {
         if (e.target.classList.contains('eliminarBtn')) {
-            const index = e.target.getAttribute('data-index');
-            eliminarProducto(index);
+            const id = e.target.getAttribute('data-id');
+            eliminarProducto(id);
         }
     });
 

@@ -87,7 +87,23 @@ header {
     margin-bottom: 25px;
       }
 
+  .heroBoton{ 
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: .4rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
 
+    transition: background-color .2s, color .2s;
+  }
+
+  .heroBoton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
 
 .tituloPrincipal{
     display: flex;
@@ -154,6 +170,34 @@ header {
     transform: scale(1.05);
 }
 
+
+/* Boton mostar todos */
+
+.containerBoton {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Añade un margen opcional para separación */
+}
+
+
+#mostrarTodos{
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding: .4rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color .2s, color .2s;
+  width: 30rem;
+  font-size: 1.5rem;
+}
+
+#mostrarTodos:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
 
 
 /* Container de productos */
