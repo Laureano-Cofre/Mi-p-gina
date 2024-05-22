@@ -10,15 +10,20 @@ document.addEventListener("DOMContentLoaded", function() {
     function actualizarCarrito() {
         carritoProductos.innerHTML = '';
         let total = 0;
-        
+
         carrito.forEach((producto, index) => {
+            // Verificar si la propiedad cantidad está definida
+            if (typeof producto.cantidad === 'undefined') {
+                producto.cantidad = 1; // Asignar un valor por defecto si no está definida
+            }
+
             const productoElemento = document.createElement('div');
             productoElemento.classList.add('productoCarrito');
             productoElemento.innerHTML = `
-                <img src="${producto.imagen}" alt="${producto.nombre}">
+                <img src="${producto.imagen}" alt="${producto.titulo}">
                 <div>
-                    <h3>${producto.nombre}</h3>
-                    <p>Precio: $${producto.precio}</p>
+                    <h3>${producto.titulo}</h3>
+                    <p>Precio: $${producto.precio.toFixed(2)}</p>
                     <p>Cantidad: ${producto.cantidad}</p>
                     <button class="btn btn-danger eliminarBtn" data-index="${index}">Eliminar</button>
                 </div>
@@ -28,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         totalCarrito.textContent = total.toFixed(2);
-        actualizarContadorCarrito(); // Asegúrate de llamar esta función aquí
+        actualizarContadorCarrito();
     }
 
     function actualizarContadorCarrito() {
         const carritoCounter = document.getElementById('carrito-counter');
-        const carritoLength = carrito.length;
-        if (carritoLength > 0) {
-            carritoCounter.textContent = carritoLength;
+        const totalCantidad = carrito.reduce((acc, producto) => acc + producto.cantidad, 0);
+        if (totalCantidad > 0) {
+            carritoCounter.textContent = totalCantidad;
             carritoCounter.style.display = 'inline-block';
         } else {
             carritoCounter.style.display = 'none';

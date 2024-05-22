@@ -385,7 +385,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-01",
         "titulo": "Please Please Me",
         "imagen": "./assets/img/tb/1.jpg",
         "banda": "The Beatles",
@@ -396,7 +396,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-02",
         "titulo": "With the Beatles ",
         "imagen": "./assets/img/tb/2.jpg",
         "banda": "The Beatles",
@@ -407,7 +407,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-03",
         "titulo": "A Hard Day's Night",
         "imagen": "./assets/img/tb/3.jpg",
         "banda": "The Beatles",
@@ -418,7 +418,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-04",
         "titulo": "Beatles for Sale",
         "imagen": "./assets/img/tb/4.jpg",
         "banda": "The Beatles",
@@ -429,7 +429,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-05",
         "titulo": "Help!",
         "imagen": "./assets/img/tb/5.jpg",
         "banda": "The Beatles",
@@ -440,7 +440,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-06",
         "titulo": "Rubber Soul",
         "imagen": "./assets/img/tb/6.jpg",
         "banda": "The Beatles",
@@ -451,7 +451,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-07",
         "titulo": "Revolver",
         "imagen": "./assets/img/tb/7.jpg",
         "banda": "The Beatles",
@@ -462,7 +462,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-08",
         "titulo": "Sgt. Pepper's Lonely Hearts Club Band",
         "imagen": "./assets/img/tb/8.jpg",
         "banda": "The Beatles",
@@ -473,7 +473,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-09",
         "titulo": "Magical Mystery Tour",
         "imagen": "./assets/img/tb/9.jpg",
         "banda": "The Beatles",
@@ -484,7 +484,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-10",
         "titulo": "The Beatles (The White Album)",
         "imagen": "./assets/img/tb/10.jpg",
         "banda": "The Beatles",
@@ -495,7 +495,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-11",
         "titulo": "Yellow Submarine",
         "imagen": "./assets/img/tb/11.jpg",
         "banda": "The Beatles",
@@ -506,7 +506,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-12",
         "titulo": "Abbey Road",
         "imagen": "./assets/img/tb/12.jpg",
         "banda": "The Beatles",
@@ -517,7 +517,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-13",
         "titulo": "Let It Be",
         "imagen": "./assets/img/tb/13.jpg",
         "banda": "The Beatles",
@@ -528,7 +528,7 @@
         "precio": 1000
     },
     {
-        "id": "pantalon-01",
+        "id": "thebeatles-14",
         "titulo": "Past Masters",
         "imagen": "./assets/img/tb/14.jpg",
         "banda": "The Beatles",
