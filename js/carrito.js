@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
     const carritoProductos = document.querySelector('.carritoProductos');
     const totalCarrito = document.getElementById('totalCarrito');
     const checkoutBtn = document.getElementById('checkoutBtn');
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         carritoProductos.innerHTML = '';
         let total = 0;
         
-        carrito.forEach(producto => {
+        carrito.forEach((producto, index) => {
             const productoElemento = document.createElement('div');
             productoElemento.classList.add('productoCarrito');
             productoElemento.innerHTML = `
@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <h3>${producto.nombre}</h3>
                     <p>Precio: $${producto.precio}</p>
                     <p>Cantidad: ${producto.cantidad}</p>
+                    <button class="btn btn-danger eliminarBtn" data-index="${index}">Eliminar</button>
                 </div>
             `;
             carritoProductos.appendChild(productoElemento);
@@ -27,7 +28,41 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         totalCarrito.textContent = total.toFixed(2);
+        actualizarContadorCarrito();
     }
+
+    function actualizarContadorCarrito() {
+        const carritoCounter = document.getElementById('carrito-counter');
+        const carritoLength = carrito.length;
+        if (carritoLength > 0) {
+            carritoCounter.textContent = carritoLength;
+            carritoCounter.style.display = 'inline-block';
+        } else {
+            carritoCounter.style.display = 'none';
+        }
+    }
+
+    // Función para eliminar un producto del carrito
+    function eliminarProducto(index) {
+        carrito.splice(index, 1);
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+        actualizarCarrito();
+    }
+
+    // Event listener para los botones de eliminar
+    carritoProductos.addEventListener('click', (e) => {
+        if (e.target.classList.contains('eliminarBtn')) {
+            const index = e.target.getAttribute('data-index');
+            eliminarProducto(index);
+        }
+    });
+
+    // Event listener para el botón de finalizar compra
+    checkoutBtn.addEventListener('click', () => {
+        alert('Compra finalizada');
+        localStorage.removeItem('carrito');
+        actualizarCarrito();
+    });
 
     // Inicializar el carrito
     actualizarCarrito();
