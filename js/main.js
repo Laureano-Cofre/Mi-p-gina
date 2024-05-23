@@ -2,6 +2,28 @@ document.addEventListener('DOMContentLoaded', function() {
     let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     let productos = [];
 
+    function mostrarNotificacion(mensaje) {
+        const contenedor = document.getElementById('notification-container');
+        const notificacion = document.createElement('div');
+        notificacion.className = 'notification';
+        notificacion.textContent = mensaje;
+
+        contenedor.appendChild(notificacion);
+
+        // Mostrar la notificación
+        setTimeout(() => {
+            notificacion.classList.add('show');
+        }, 10);
+
+        // Ocultar y eliminar la notificación después de 3 segundos
+        setTimeout(() => {
+            notificacion.classList.remove('show');
+            notificacion.addEventListener('transitionend', () => {
+                notificacion.remove();
+            });
+        }, 3000);
+    }
+
     function actualizarCarrito() {
         const carritoContainer = document.querySelector('.carritoProductos');
         if (carritoContainer) {
@@ -27,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             document.getElementById('totalCarrito').textContent = total.toFixed(2);
         }
-        actualizarContadorCarrito(); // Asegúrate de llamar esta función aquí también
+        actualizarContadorCarrito();
     }
 
     function actualizarContadorCarrito() {
@@ -74,7 +96,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     console.log('Producto agregado al carrito:', selectedProduct);
                     console.log('Contenido del carrito:', carrito);
                     localStorage.setItem('carrito', JSON.stringify(carrito));
-                    actualizarCarrito(); // Llamamos a la función para actualizar el carrito
+                    actualizarCarrito();
+                    mostrarNotificacion('Producto agregado al carrito');
                 } else {
                     console.error('Producto no encontrado con ID:', productId);
                 }
@@ -120,7 +143,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Lógica para mostrar todos los productos
     const mostrarTodos = document.getElementById('mostrarTodos');
     mostrarTodos.addEventListener('click', () => {
         mostrarProductos(productos);

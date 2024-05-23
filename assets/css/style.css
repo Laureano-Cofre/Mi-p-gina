@@ -72,22 +72,29 @@ header {
     align-items:end;
   }
   
-  .hero-title{ 
+/*   .hero-title{ 
     color: white;
   }
 
   .hero-title { margin-bottom: 10px; }
   
   .hero-title > strong { display: block; }
-  
+   */
   .hero-text {
     color: white;
-    line-height: 1.8;
-    max-width: 100ch;
-    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    text-align: center;
+    font-size: 1.2rem;
       }
 
-  .heroBoton{ 
+/*   .heroBoton{ 
     border: 0;
     background-color: rgba(0, 0, 0, 0.5); 
     color: white;
@@ -103,7 +110,7 @@ header {
     background-color: white;
     color: black;
     border: 2px solid black;
-  }
+  } */
 
 .tituloPrincipal{
     display: flex;
@@ -448,6 +455,31 @@ h2 {
   
 
 
+/* Notificación de agregado */
+
+#notification-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.notification {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.notification.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
 

@@ -3,18 +3,35 @@ document.addEventListener("DOMContentLoaded", function() {
     const totalCarrito = document.getElementById('totalCarrito');
     const checkoutBtn = document.getElementById('checkoutBtn');
 
-    // Obtener el carrito del localStorage
     const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
-    // Función para actualizar el carrito en la interfaz
+    function mostrarNotificacion(mensaje) {
+        const contenedor = document.getElementById('notification-container');
+        const notificacion = document.createElement('div');
+        notificacion.className = 'notification';
+        notificacion.textContent = mensaje;
+
+        contenedor.appendChild(notificacion);
+
+        setTimeout(() => {
+            notificacion.classList.add('show');
+        }, 10);
+
+        setTimeout(() => {
+            notificacion.classList.remove('show');
+            notificacion.addEventListener('transitionend', () => {
+                notificacion.remove();
+            });
+        }, 3000);
+    }
+
     function actualizarCarrito() {
         carritoProductos.innerHTML = '';
         let total = 0;
 
         carrito.forEach((producto, index) => {
-            // Verificar si la propiedad cantidad está definida
             if (typeof producto.cantidad === 'undefined') {
-                producto.cantidad = 1; // Asignar un valor por defecto si no está definida
+                producto.cantidad = 1;
             }
 
             const productoElemento = document.createElement('div');
@@ -48,32 +65,29 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Función para eliminar un producto del carrito
     function eliminarProducto(id) {
         const index = carrito.findIndex(product => product.id == id);
         if (index > -1) {
             carrito.splice(index, 1);
             localStorage.setItem('carrito', JSON.stringify(carrito));
             actualizarCarrito();
+            mostrarNotificacion('Producto eliminado del carrito');
         }
     }
 
-    // Event listener para los botones de eliminar
     carritoProductos.addEventListener('click', (e) => {
         if (e.target.classList.contains('eliminarBtn')) {
-            const id = e.target.getAttribute('data-id');
+            const id = e.target.dataset.id;
             eliminarProducto(id);
         }
     });
 
-    // Event listener para el botón de finalizar compra
     checkoutBtn.addEventListener('click', () => {
-        alert('Compra finalizada');
+        alert('¡Gracias por tu compra!');
+        carrito.length = 0;
         localStorage.removeItem('carrito');
-        carrito.length = 0; // Vaciar el array del carrito
         actualizarCarrito();
     });
 
-    // Inicializar el carrito
     actualizarCarrito();
 });
