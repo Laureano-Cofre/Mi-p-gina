@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             carrito.forEach(producto => {
                 const carritoProducto = document.createElement('div');
-                carritoProducto.classList.add('carritoProducto');
+                carritoProducto.classList.add('productoCarrito');
 
                 carritoProducto.innerHTML = `
                     <img src="${producto.imagen}" alt="${producto.titulo}">
@@ -147,4 +147,27 @@ document.addEventListener('DOMContentLoaded', function() {
     mostrarTodos.addEventListener('click', () => {
         mostrarProductos(productos);
     });
+
+    // Código del carrusel
+    const slides = document.querySelectorAll('.carousel-slide img');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        const totalSlides = slides.length;
+        if (index >= totalSlides) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = totalSlides - 1;
+        } else {
+            currentIndex = index;
+        }
+        const offset = -currentIndex * 100;
+        document.querySelector('.carousel-slide').style.transform = `translateX(${offset}%)`;
+    }
+
+    setInterval(() => {
+        showSlide(currentIndex + 1);
+    }, 4000);
+
+    showSlide(currentIndex);
 });
